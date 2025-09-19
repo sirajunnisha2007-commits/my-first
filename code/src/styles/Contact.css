@@ -1,0 +1,30 @@
+.contact-page {
+    padding-top: 12vh;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5fff7 0%, #ffffff 100%);
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5vh 4vw;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 30px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+.contact-card h2 {
+    margin: 0 0 2vh 0;
+    font-size: 2rem;
+    color: #238523;
+}
+
+.contact-card p {
+    margin: 1vh 0;
+    font-size: 1rem;
+    color: #333;
+}
